@@ -1,1 +1,3 @@
-console.log("Test Test !");
+import init from "./web"
+
+init();

@@ -1,0 +1,29 @@
+div.background-img img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+div.content .centered{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.content .item{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.content img{
+    width: 200px;
+}
